@@ -13,6 +13,13 @@
 		1BC2D06027441D83001878EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2D05E27441D83001878EA /* Main.storyboard */; };
 		1BC2D06227441D85001878EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2D06127441D85001878EA /* Assets.xcassets */; };
 		1BC2D06527441D85001878EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC2D06327441D85001878EA /* LaunchScreen.storyboard */; };
+		1BC2D06D27441E39001878EA /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2D06C27441E39001878EA /* Session.swift */; };
+		1BC2D06F27441EB2001878EA /* ThrirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2D06E27441EB2001878EA /* ThrirdViewController.swift */; };
+		1BC2D07127442263001878EA /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2D07027442263001878EA /* Observer.swift */; };
+		1BC2D073274428D7001878EA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2D072274428D7001878EA /* SecondViewController.swift */; };
+		1BC2D07527442DF8001878EA /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2D07427442DF8001878EA /* RegViewController.swift */; };
+		1BC2D07727442DFF001878EA /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2D07627442DFF001878EA /* OrderViewController.swift */; };
+		1BC2D07927442E05001878EA /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2D07827442E05001878EA /* CityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		1BC2D06127441D85001878EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BC2D06427441D85001878EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BC2D06627441D85001878EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC2D06C27441E39001878EA /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		1BC2D06E27441EB2001878EA /* ThrirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrirdViewController.swift; sourceTree = "<group>"; };
+		1BC2D07027442263001878EA /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		1BC2D072274428D7001878EA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1BC2D07427442DF8001878EA /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
+		1BC2D07627442DFF001878EA /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		1BC2D07827442E05001878EA /* CityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +73,14 @@
 				1BC2D05827441D83001878EA /* AppDelegate.swift */,
 				1BC2D05A27441D83001878EA /* SceneDelegate.swift */,
 				1BC2D05C27441D83001878EA /* ViewController.swift */,
+				1BC2D072274428D7001878EA /* SecondViewController.swift */,
+				1BC2D06C27441E39001878EA /* Session.swift */,
+				1BC2D07027442263001878EA /* Observer.swift */,
 				1BC2D05E27441D83001878EA /* Main.storyboard */,
+				1BC2D07427442DF8001878EA /* RegViewController.swift */,
+				1BC2D07627442DFF001878EA /* OrderViewController.swift */,
+				1BC2D07827442E05001878EA /* CityViewController.swift */,
+				1BC2D06E27441EB2001878EA /* ThrirdViewController.swift */,
 				1BC2D06127441D85001878EA /* Assets.xcassets */,
 				1BC2D06327441D85001878EA /* LaunchScreen.storyboard */,
 				1BC2D06627441D85001878EA /* Info.plist */,
@@ -138,9 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC2D06F27441EB2001878EA /* ThrirdViewController.swift in Sources */,
+				1BC2D07927442E05001878EA /* CityViewController.swift in Sources */,
+				1BC2D07127442263001878EA /* Observer.swift in Sources */,
+				1BC2D06D27441E39001878EA /* Session.swift in Sources */,
 				1BC2D05D27441D83001878EA /* ViewController.swift in Sources */,
+				1BC2D073274428D7001878EA /* SecondViewController.swift in Sources */,
 				1BC2D05927441D83001878EA /* AppDelegate.swift in Sources */,
 				1BC2D05B27441D83001878EA /* SceneDelegate.swift in Sources */,
+				1BC2D07527442DF8001878EA /* RegViewController.swift in Sources */,
+				1BC2D07727442DFF001878EA /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
